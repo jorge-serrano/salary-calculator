@@ -1,0 +1,15 @@
+﻿
+<div class="jumbotron">
+    <h1>Salaries</h1>
+    <p class="lead">Front Side of the app.</p>
+</div>
+
+	<span>Enter an Employee Id or leave it blank for all</span>
+	@using (@Html.BeginForm("GetEmployees", "Home"))
+	{
+        @Html.TextBox("IdEmp")
+        <input type="submit" value="Get Salary"/>
+    }
+    
+
+

@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jserrano.SalaryCalculator.Web.UI", "Jserrano.SalaryCalculator.Web.UI\Jserrano.SalaryCalculator.Web.UI.csproj", "{DE542BBE-A9F7-47EB-8A75-C05480EDB921}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jserrano.SalaryCalculator.Web.UI.Tests", "Jserrano.SalaryCalculator.Web.UI.Tests\Jserrano.SalaryCalculator.Web.UI.Tests.csproj", "{43542AFA-549B-491D-AB18-C19EC223F6D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jserrano.SalaryCalculator.Business", "Jserrano.SalaryCalculator.Business\Jserrano.SalaryCalculator.Business.csproj", "{01E48A0D-07A7-4834-B683-065766682337}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jserrano.SalaryCalculator.Infrastructure", "Jserrano.SalaryCalculator.Infrastructure\Jserrano.SalaryCalculator.Infrastructure.csproj", "{91BD9EAF-DCF8-41D9-901D-7F6FAD54B29B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jserrano.SalaryCalculator.DataModel", "Jserrano.SalaryCalculator.DataModel\Jserrano.SalaryCalculator.DataModel.csproj", "{D34C0A50-A856-4917-98DD-B788013B647B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE542BBE-A9F7-47EB-8A75-C05480EDB921}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE542BBE-A9F7-47EB-8A75-C05480EDB921}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE542BBE-A9F7-47EB-8A75-C05480EDB921}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE542BBE-A9F7-47EB-8A75-C05480EDB921}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43542AFA-549B-491D-AB18-C19EC223F6D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43542AFA-549B-491D-AB18-C19EC223F6D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43542AFA-549B-491D-AB18-C19EC223F6D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43542AFA-549B-491D-AB18-C19EC223F6D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01E48A0D-07A7-4834-B683-065766682337}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01E48A0D-07A7-4834-B683-065766682337}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01E48A0D-07A7-4834-B683-065766682337}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01E48A0D-07A7-4834-B683-065766682337}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91BD9EAF-DCF8-41D9-901D-7F6FAD54B29B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91BD9EAF-DCF8-41D9-901D-7F6FAD54B29B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91BD9EAF-DCF8-41D9-901D-7F6FAD54B29B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91BD9EAF-DCF8-41D9-901D-7F6FAD54B29B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D34C0A50-A856-4917-98DD-B788013B647B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D34C0A50-A856-4917-98DD-B788013B647B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D34C0A50-A856-4917-98DD-B788013B647B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D34C0A50-A856-4917-98DD-B788013B647B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

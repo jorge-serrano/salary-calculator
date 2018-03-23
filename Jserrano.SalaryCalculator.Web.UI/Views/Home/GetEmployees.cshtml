@@ -1,0 +1,54 @@
+﻿@model IEnumerable<Jserrano.SalaryCalculator.DataModel.DTOs.EmployeeInfo>
+
+@{
+    ViewBag.Title = "Get Employees";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>GetEmployees</h2>
+
+<p>
+    @Html.ActionLink("Back to Search", "Index")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            Employee Id
+        </th>
+        <th>
+            Name
+        </th>
+        <th>
+            Anual Salary
+        </th>
+        <th >
+            Base Salary
+        </th>
+        <th>
+            Salary Type
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.EmployeeId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EmployeeName)
+        </td>
+        <td >
+            @Html.DisplayFor(modelItem => item.AnualSalary, "MoneyTemplate")
+        </td>
+        <td >
+            @Html.DisplayFor(modelItem => item.BaseSalary, "MoneyTemplate")
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TypeOfSalary)
+        </td>
+        
+    </tr>
+}
+
+</table>
